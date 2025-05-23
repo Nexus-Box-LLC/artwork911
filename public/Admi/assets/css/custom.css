@@ -1,0 +1,140 @@
+table.dataTable{
+	border-collapse:collapse !important;
+}
+
+table.dataTable thead tr{
+	background: #0d69be !important;
+}
+
+table.dataTable thead tr th{
+	border-color: #0d69be !important;
+	color: #FFFFFF !important;
+}
+
+table.table-bordered.dataTable th,
+table.table-bordered.dataTable td{
+    border-left-width:1px !important;
+}
+
+
+table.table-bordered.dataTable th:last-child,
+table.table-bordered.dataTable th:last-child,
+table.table-bordered.dataTable td:last-child,
+table.table-bordered.dataTable td:last-child{
+    border-right-width:1px !important;
+}
+
+.table td, .table th{
+	padding: .45rem !important;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before{
+	top: 6px !important;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after{
+	top: 6px !important;
+}
+
+.btn-group-sm>.btn, .btn-sm{
+	padding: .1rem .3em !important;
+}
+
+.basic_headings{
+	font-size: 14px !important;
+	padding: 5px 0px !important;
+    border-bottom: 1px solid #dedede !important;
+}
+
+td .btn{
+	margin:2px 0px;
+}
+
+table.hbg thead tr{
+	background: #e4e4e4 !important;
+}
+
+/*.modal-content, .modal-header, .modal-body{
+	border-radius:0px;
+}*/
+
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* multiple email address */
+.tokenfield .token{
+	border: 1px solid #5b6be8;
+	background-color: #5b6be8;
+	color: #FFF;
+}
+
+.tokenfield.form-control{
+	border-radius: 0px;
+}
+
+.tokenfield.form-control.focus{
+	border-color:#ced4da;
+	box-shadow:none;
+}
+
+.card-colored{
+	background: #edf1f4 !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}
+
+.card-header::after{
+	display:block;
+	content:'';
+	position:relative;
+	clear:both;
+}
+
+.hide{
+	display:none;
+}
+
+.m-l-5{
+	margin-left:5px !important;
+}
+
+.fa-el{
+	font-size:70px !important;
+}
+
+.table.colored thead tr{
+	background: #0c69be;
+    color: #FFF;
+}
+
+.table.colored thead th{
+	border-bottom: 2px solid #0c69be !important;
+}
+
+.table.colored.table-bordered th{
+	border: 1px solid #0c69be !important;
+}
+
+.text-green {
+    color: #28a745!important;
+}
+
+.alertify-logs > .success{
+	background:#28a745 !important;
+}
