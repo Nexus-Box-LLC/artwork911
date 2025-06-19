@@ -1,6 +1,9 @@
 ## Added by Emiliio
 /vendor/
+/laravel/vendor/
 node_modules/
+/laravel/npm-debug.log
+/laravel/yarn-error.log
 npm-debug.log
 yarn-error.log
 /artwork911/node_modules/
@@ -8,30 +11,51 @@ yarn-error.log
 /next/node_modules/
 /next/.next/
 # Laravel 4 specific
+/laravel/bootstrap/compiled.php
 bootstrap/compiled.php
+/laravel/app/storage/
 app/storage/
 
 # Laravel 5 & Lumen specific
+/laravel/public/storage
+/laravel/public/hot
 public/storage
 public/hot
 
 # Laravel 5 & Lumen specific with changed public path
+/laravel/public_html/storage
+/laravel/public_html/hot
 public_html/storage
 public_html/hot
 
+/laravel/storage/*.key
 storage/*.key
+/laravel/.env
 .env
+/laravel/.env.backup
 .env.backup
+/laravel/Homestead.yaml
 Homestead.yaml
+/laravel/Homestead.json
 Homestead.json
+/laravel/.vagrant
 /.vagrant
+/laravel/.phpunit.result.cache
 .phpunit.result.cache
 
+/laravel/public/build
 /public/build
+/laravel/storage/pail
 /storage/pail
+/laravel/.env.backup
 .env.backup
+/laravel/.env.production
 .env.production
+/laravel/.phpactor.json
 .phpactor.json
+/laravel/auth.json
 auth.json
+/laravel/.idea
 /.idea
+/laravel/.vscode
 /.vscode
