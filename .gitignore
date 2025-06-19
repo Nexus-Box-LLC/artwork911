@@ -3,8 +3,8 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-/artwork911/node_modules/
-/artwork911/.next/
+/next/artwork911/node_modules/
+/next/artwork911/.next/
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
