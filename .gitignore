@@ -3,6 +3,8 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+/artwork911/node_modules/
+/artwork911/.next/
 /next/node_modules/
 /next/.next/
 # Laravel 4 specific
