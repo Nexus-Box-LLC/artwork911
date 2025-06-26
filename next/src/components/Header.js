@@ -1,14 +1,29 @@
 import Link from 'next/link';
+import Image from "next/image";
+import Button from '../components/Button';
+import TopButton from '../components/TopButton';
+import Navbar from '../components/Navbar';
 
 export default function Header() {
   return (
-    <header className="bg-blue-700 text-white p-4 shadow-md">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">Next.js App</h1>
-        <nav>
-          <Link href="/" className="mx-2 hover:underline">Home</Link>
-          <Link href="/about" className="mx-2 hover:underline">About</Link>
-        </nav>
+    <header>
+      <div className="container">
+        <div className="flex justify-between row">
+        <div className="col-sm-4">
+        <Image
+              className="dark:invert"
+              src="/logo.svg"
+              alt="Vercel logomark"
+              width={245}
+              height={97}
+            />
+            </div>
+            <div className="col-sm-8 flex">
+            <Navbar />
+       
+        <TopButton text="Log in" onClick="/" />
+        </div>
+        </div>
       </div>
     </header>
   );

@@ -1,0 +1,208 @@
+
+
+@font-face {
+    font-family: 'Mark Pro';
+    src: url('/fonts/markpro/MarkPro.eot');
+    src: url('/fonts/markpro/MarkPro.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/markpro/MarkPro.woff2') format('woff2'),
+        url('/fonts/markpro/MarkPro.woff') format('woff'),
+        url('/fonts/markpro/MarkPro.ttf') format('truetype'),
+        url('/fonts/markpro/MarkPro.svg#MarkPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.customText {
+  background-color: #f0f4ff;
+  padding: 16px;
+  border-left: 4px solid #2563eb;
+  border-radius: 4px;
+  color: #1e293b;
+}
+header{
+  padding-top: 35px;
+  padding-bottom: 66px;
+}
+
+header .col-sm-8.flex {
+    display: flex;
+    align-items: center;
+}
+
+header .col-sm-8.flex .nav-links a {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #11357C;
+}
+
+header .col-sm-8.flex .nav-links {
+    display: flex;
+    gap: 16px;
+        margin-right: 20px;
+}
+.buttons {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+a.btn_dark {
+   
+    background: #6E35A0;
+    padding: 16px 32px;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    border-radius: 10px;
+    border:solid 2px #6E35A0;
+}
+a.btn_lite {
+   
+    background: #6E35A0;
+    padding: 16px 32px;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    border-radius: 10px;
+    border:solid 2px #6E35A0;
+}
+a.btn_alpha {
+    
+    background: #fff0;
+    padding: 16px 32px;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #6E35A0;
+    border-radius: 10px;
+    border:solid 2px #6E35A0;
+}
+
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+
+
+.lightcolor{
+  background:#6E35A04D;
+}
+.darkcolor{
+  background:#6E35A0;
+}
+
+
+.main_slider{display: flex;    align-items: center; position: relative;}
+.width50 {
+    width: 50%;
+}
+
+.width50.rightbx {
+    margin-top: -66px;
+    margin-bottom: -66px;
+    border-radius: 40px 0px 0px 40px;
+    overflow: hidden;
+}
+
+.maincontent {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: #11357C;
+    padding-right: 50px ;
+    padding-left: 50px;
+}
+
+@media(min-width:1400px){
+  .width50.leftbx .maincontent {
+      padding-left: calc(calc(100% - 350px) / 2);
+              padding-right: 200px !important;
+  }
+}
+
+@media(min-width:1200px){
+  .width50.leftbx .maincontent {
+      padding-left: calc(calc(100% - 600px) / 2);
+              padding-right: 50px;
+  }
+}
+
+.width50.leftbx .maincontent h1{
+      font-family: Mark Pro;
+      font-weight: 700;
+      font-size: 62px;
+      line-height: 100%;
+      letter-spacing: 0;
+      color: #11357C;
+          margin-bottom: 40px;
+}
+
+.main_slider .swiper-slide {
+    min-height: 980px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main_slider .swiper-slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100% !important;
+    height: 100%;
+    max-width: inherit !important;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    transform-origin: right;
+    object-position: center;
+}
+
+
+
+.main_slider span.swiper-pagination-bullet {
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    background: #11357C;
+    opacity: 1;
+}
+
+.main_slider span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 80px;
+    background: #6E35A0;
+}
+
+.main_slider .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 32px;
+}
+
+.main_slider .floating_icon {
+    position: absolute;
+    bottom: 32px;
+    left: calc(50% - 120px);
+    z-index: 10;
+}
