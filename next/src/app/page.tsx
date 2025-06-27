@@ -42,7 +42,7 @@ about video
   <video
         src="/home/video/mic_handcrafted.mp4" controls controlsList="nodownload" disablePictureInPicture width="1028" poster="/home/video/video_poster.png">
       </video>
-  <p>Having trouble seeing video? <a href="#">Watch on YouTube</a> ></p>
+  <p>Having trouble seeing video? <a href="#">Watch on YouTube</a> </p>
 </div>
 </div>
 
