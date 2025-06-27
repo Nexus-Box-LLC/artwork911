@@ -20,7 +20,19 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.container{
+    max-width: 1300px !important;
+}
+.col-sm-4{width: 33.33%}
+.col-sm-5{width: 41.66%}
+.col-sm-6{width: 50%}
+.col-sm-7{width: 58.33%}
+.col-sm-8{width: 66.66%}
 
+
+header .container{
+    max-width: 1400px;
+}
 .customText {
   background-color: #f0f4ff;
   padding: 16px;
@@ -205,4 +217,227 @@ a.btn_alpha {
     bottom: 32px;
     left: calc(50% - 120px);
     z-index: 10;
+}
+
+.about_video_section {
+    padding-top: 160px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.av_content {
+    max-width: 748px;
+    margin: auto;
+    padding-bottom: 70px;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #11357C;
+}
+
+.av_video {
+    text-align: center;
+    padding-bottom: 35px;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    margin-top: 0px;
+    position: relative;
+}
+
+.av_video video {
+    margin: auto;
+    border-radius: 40px;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 35px;    max-height: 578px;
+    object-fit: cover;
+}
+
+.av_video a {
+    font-weight: 600;
+}
+
+.av_video:before {
+    background: #6E35A0;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - 150px);
+    left: 0;
+}
+
+.av_video > * {
+    position: relative;
+}
+
+.av_content h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #11357C;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+.about_solution_section {
+    background: #F6F5EE;
+    padding-top: 175px;
+    padding-bottom: 125px;
+}
+.about_solution_section .flex.justify-between.row {
+    gap: 25px;
+}
+.about_solution_section .as_image {
+    display: flex;
+    width: 100%;
+}
+
+.as_image {
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.as_image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.as_content h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #11357C;
+    text-align: left;
+    padding-bottom: 90px;
+    padding-top: 60px;
+}
+
+
+.as_content ul {
+    border: solid 1px #6E35A0;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.as_content ul li {
+    padding: 40px;
+    border-bottom: solid 1px #6E35A0;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6E35A0;
+    background: #fff;
+}
+
+.as_content ul li:last-child {
+    border: 0px;
+}
+
+.as_content ul li h4 {
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+.as_content ul li:hover {
+    background: #6E35A0;
+    color: #fff;
+}
+
+
+
+footer .darkcolor {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+footer .darkcolor .social_icons a {
+    padding: 10px;
+    background: #7C48A8;
+    border-radius: 50%;
+}
+
+nav.footernavbar {
+    padding-top: 80px;
+}
+
+nav.footernavbar .nav-links {
+    column-count: 2;
+    gap: 40px;
+    display: block;
+}
+
+nav.footernavbar .nav-links a {
+    display: inherit;
+    font-family: Mark Pro;
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+    width: max-content;
+}
+
+footer h6 {
+    display: block;
+    font-family: Mark Pro;
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.foot_contact {
+    padding-top: 55px;
+}
+
+.foot_contact ul {
+    display: flex;
+    gap: 50px;
+}
+
+
+.foot_contact ul li a {
+    display: block;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.foot_contact ul * {
+    font-family: Mark Pro;
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+}
+
+
+.flex.justify-between.row.foot_copy {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.flex.justify-between.row.foot_copy .copyright {
+    padding: 5px 15px;
+    background: rgb(245 245 245 / 20%);
+    text-align: center;
+}
+
+.footcontact a {
+    font-weight: 700;
 }
