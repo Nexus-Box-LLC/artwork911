@@ -48,6 +48,7 @@ header{
 header .col-sm-8.flex {
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 
 header .col-sm-8.flex .nav-links a {
