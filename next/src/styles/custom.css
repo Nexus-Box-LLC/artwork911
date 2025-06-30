@@ -28,6 +28,7 @@ body {
 .col-sm-6{width: 50%}
 .col-sm-7{width: 58.33%}
 .col-sm-8{width: 66.66%}
+.col-sm-12{width: 100%}
 
 
 header .container{
@@ -363,6 +364,323 @@ a.btn_alpha {
     color: #fff;
 }
 
+
+
+.artwork_rescue_section.darkcolor {
+    padding-bottom: 114px;
+    padding-top: 114px;
+    color: #fff;
+}
+
+.artwork_rescue_section h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.art_resc_content {
+    position: relative;
+}
+
+.art_resc_content img.art_resc_img {
+    position: absolute;
+    top: 100px;
+    right: 50px;    
+    z-index: 0;
+    width: 650px;
+    max-width: inherit;
+}
+
+.art_resc_content_details {
+    font-family: Mark Pro;
+    font-size: 20px;
+}
+
+.art_resc_content_details p {
+    margin-bottom: 20px;
+}
+
+.art_resc_content_details p strong {
+    font-weight: 600;
+}
+
+.artwork_rescue_section.darkcolor .container {
+    max-width: 1200px !important;
+}
+
+.art_resc_content_details p {
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+.ourservices_section {
+    padding-top: 125px;
+    padding-bottom: 105px;
+}
+
+.ourservices_section h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #11357C;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.artwork_rescue_section.darkcolor .container {
+    max-width: 1150px !important;
+}
+
+.ourservices_section .service_boxes li {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.ourservices_section .service_boxes li .servicebox_content {
+    width: 45%;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: #11357C;
+}
+
+.ourservices_section .service_boxes li .servicebox_img {
+    width: 55%;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.ourservices_section .service_boxes li .servicebox_content h3 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 40px;
+    color: #11357C;
+    margin-bottom: 20px;
+}
+
+.ourservices_section .service_boxes li .servicebox_content a {
+    color: #6E35A0;
+    display: block;
+    margin-top: 20px;
+}
+
+.ourservices_section .service_boxes li:nth-child(even) {direction: rtl;}
+
+.ourservices_section .service_boxes li:nth-child(even) .servicebox_content {
+    direction: ltr;
+}
+
+.expert_artwork_services_section .container {
+    max-width: 1150px !important;
+    margin: auto;
+}
+
+.expert_artwork_services_section .container .easervicebox {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.expert_artwork_services_section .container .easervicebox .easervicebox_content {
+    width: 50%;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: #11357C;
+}
+
+.expert_artwork_services_section .container .easervicebox .easervicebox_icons {
+    width: 50%;
+}
+
+
+.expert_artwork_services_section h3 {font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 40px;
+    color: #11357C;
+    margin-bottom: 20px;
+    max-width:500px;
+    line-height:normal
+}
+
+.expert_artwork_services_section .container .easervicebox .easervicebox_icons ul {
+    display: flex;
+    gap: 15px;
+}
+
+.expert_artwork_services_section .container .easervicebox .easervicebox_icons ul li {
+    justify-items: center;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    line-height: normal;
+    align-items: start;
+    width: 33.33%;
+    color: #11357C;
+}
+
+.expert_artwork_services_section .container .easervicebox .easervicebox_icons ul li .eas_icon {
+    width: 100px;
+    height: 100px;
+    background: #11357C;
+    border-radius: 20px;
+    line-height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.expert_artwork_services_section .container .easervicebox .easervicebox_icons ul li .eas_icon img {
+    width: 60px !important;
+    height: 60px;
+}
+
+.google_reviews_section img {
+    max-width: inherit;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.google_reviews_section {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.our_reviews_section {
+    position: relative;
+}
+
+.our_reviews_section:before {
+        content: '';
+    display: block;
+    background: #6e35a0;
+    position: absolute;
+    top: -122px;
+    width: 100%;
+    height: calc(100% + 244px);
+    max-width: 1450px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 40px;
+}
+
+.our_reviews_section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.our_reviews_section h2 {
+    color: #fff;
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.expert_artwork_services_section {
+    margin-bottom: 100px;
+}
+
+
+
+.get_free_quote_section {
+    margin-top: 122px;
+    padding-top: 116px;
+    padding-bottom: 116px;
+}
+
+.get_free_quote_section .flex.justify-between.row {
+    gap: 60px;
+    align-items: center;
+}
+
+.get_free_quote_section .flex.justify-between.row .gfq_img {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.get_free_quote_section .flex.justify-between.row .gfq_content {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    color: #11357C;
+}
+
+.get_free_quote_section .flex.justify-between.row .gfq_content li {
+    margin-bottom: 20px;
+}
+
+.get_free_quote_section  h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 40px;
+    color: #11357C;
+    margin-bottom: 20px;
+}
+
+
+.pricing_section {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: #F6F5EE;
+    color: #11357C;
+}
+
+.pricing_section h4 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pricing_section .container {
+    max-width: 1000px !important;
+}
+
+
+.quality_section {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    text-align: center;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: #11357C;
+}
+
+.quality_section .container {
+    max-width: 1000px !important;
+}
+
+.quality_section .container h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+    color: #11357C;
+    padding-bottom: 40px;
+}
 
 
 footer .darkcolor {
