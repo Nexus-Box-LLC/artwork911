@@ -13,6 +13,18 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Mark Pro';
+    src: url('/fonts/markprobold/MarkProBold.eot');
+    src: url('/fonts/markprobold/MarkProBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/markprobold/MarkProBold.woff2') format('woff2'),
+        url('/fonts/markprobold/MarkProBold.woff') format('woff'),
+        url('/fonts/markprobold/MarkProBold.ttf') format('truetype'),
+        url('/fonts/markprobold/MarkProBold.svg#MarkPro') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 
@@ -22,6 +34,12 @@ body {
 
 .container{
     max-width: 1300px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-lrg{
+    max-width: 1450px !important;
 }
 .col-sm-4{width: 33.33%}
 .col-sm-5{width: 41.66%}
@@ -32,7 +50,7 @@ body {
 
 
 header .container{
-    max-width: 1400px;
+    max-width: 1450px !important;
 }
 .customText {
   background-color: #f0f4ff;
@@ -153,14 +171,14 @@ a.btn_alpha {
 
 @media(min-width:1400px){
   .width50.leftbx .maincontent {
-      padding-left: calc(calc(100% - 350px) / 2);
-              padding-right: 200px !important;
-  }
+        padding-left: calc(100% - 650px) !important;
+        padding-right: 100px !important;
+    }
 }
 
 @media(min-width:1200px){
   .width50.leftbx .maincontent {
-      padding-left: calc(calc(100% - 600px) / 2);
+      padding-left: calc(100% - 600px);
               padding-right: 50px;
   }
 }
@@ -249,6 +267,8 @@ a.btn_alpha {
     color: #fff;
     margin-top: 0px;
     position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .av_video video {
@@ -560,6 +580,8 @@ a.btn_alpha {
 
 .our_reviews_section {
     position: relative;
+        margin-top: 122px;
+    margin-bottom: 122px;
 }
 
 .our_reviews_section:before {
@@ -694,6 +716,12 @@ footer .darkcolor .social_icons a {
     border-radius: 50%;
 }
 
+footer .darkcolor .social_icons a svg {
+    width: 100%;
+    max-width: 32px;
+    height: auto;
+}
+
 nav.footernavbar {
     padding-top: 80px;
 }
@@ -759,4 +787,375 @@ footer h6 {
 
 .footcontact a {
     font-weight: 700;
+}
+
+
+/*embroidery_digitizing css*/
+
+.topbanner_area .container {
+    max-width: 1450px !important;
+}
+
+.topbanner_area .floating_icon {
+    position: absolute;
+    bottom: -90px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.topbanner_area {
+    position: relative;
+}
+
+
+.topbanner {
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.topbanner:before {
+    content: '';
+    padding-bottom: 50%;
+    display: block;
+}
+
+.topbanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+
+.ed_content h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    text-align: left;
+    color: #11357C;
+    margin-bottom: 32px;
+}
+
+.ed_content {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    text-align: justify;
+    color: #11357C;
+    padding-bottom: 53px;
+}
+
+.ed_content p {
+    margin-bottom: 30px;
+}
+
+.ed_content a.btn_alpha {display: inline-block;}
+
+.embroidery_digitizing_section {
+    padding-top: 173px;
+    overflow: clip;
+}
+
+
+
+.why_ed_content h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 32px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.why_ed_content {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    text-align: justify;
+    color: #fff;
+    position: relative;
+}
+
+.why_ed_content:before {content: '';background: #6e35a0;position: absolute;top: 0;width: 5000px;height: 100%;left: 50%;transform: translateX(-50%);z-index: -1;}
+
+.embroidery_digitizing_section .flex.justify-between.row {
+    gap: 56px;
+}
+
+.embroidery_digitizing_section .flex.justify-between.row .col-sm-5 {
+    display: flex;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.embroidery_digitizing_section .flex.justify-between.row .col-sm-5 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.embroidery_digitizing_section .flex.justify-between.row .col-sm-5 .ed_img {
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.sample_work_section{ padding-top:100px; padding-bottom:100px; }
+
+
+.sample_work_section.darkcolor ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.sample_work_section.darkcolor ul li {
+    width: calc(33.33% - 30px);
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sample_work_section.darkcolor ul li.sws_img:before {
+    padding-bottom: 66%;
+    content: '';
+    display: block;
+}
+
+.sample_work_section.darkcolor ul li.sws_img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+li.sw_content {
+    border-radius: inherit !important;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+li.sw_content h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
+
+.sample_work_section .container {
+    max-width: 1450px !important;
+}
+
+
+
+
+.sample_work_section .container {
+    max-width: 1400px !important;
+}
+
+.why_ed_content h2:after {
+    content: '';
+    display: block;
+    height: 25px;
+    background: url(/embroidery_digitizing/why_embroidery_line.svg);
+    background-size: cover;
+}
+
+li.sw_content:after {
+    content: '';
+    display: block;
+    height: 82px;
+    background: url(/embroidery_digitizing/sample_work_arrow.svg);
+    background-size: cover;
+}
+
+
+
+
+.pricing_section h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+}
+
+.pricing_section ul {
+    margin-top: 60px;
+    display: flex;
+    gap: 32px;
+}
+
+.pricing_section ul li {
+    width: calc(33.33% - 30px);
+    border: solid 1px #D1C9C9;
+    background: #F5F5F5;
+    border-radius: 40px;
+    padding: 50px 40px;
+    padding-bottom: 128px;
+    position: relative;
+}
+
+.pricing_section ul li h3 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+}
+
+.prodesc {
+    margin-top: 50px;
+    padding-top: 50px;
+    position: relative;
+    font-size: 18px;
+}
+
+.prodesc:before {
+    content: '';
+    border-top: solid 1.5px #DDDDDD;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.prodbtn {position: absolute;bottom: 40px;width: calc(100% - 80px);text-align: center;background: #6E35A0;color: #fff;border-radius: 40px;height: 50px;line-height: 54px;font-family: Mark Pro;font-weight: 700;font-size: 20px;}
+
+.sml_note {
+    color: #6E35A0;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+
+.whychoose_section.darkcolor .flex.justify-between.row {
+    align-items: center;
+    color: #fff;
+    gap: 70px;
+}
+
+.whychoose_section.darkcolor .wc_img_title {
+    text-align: center;
+    justify-items: anchor-center;
+    padding-top: 71px;
+    padding-bottom: 130px;
+    background: linear-gradient(253.09deg, rgba(217, 217, 217, 0.25) -7.53%, rgba(217, 217, 217, 0) 97.04%);
+    backdrop-filter: blur(50px);
+    margin-top: -35px;
+    margin-bottom: -35px;
+    border-radius: 33px;
+    overflow: hidden;
+    border: 1px solid;
+    border-image-source: linear-gradient(246.16deg, rgba(253, 250, 250, 0.25) 4.55%, rgba(255, 251, 251, 0.25) 39.51%);
+}
+
+.whychoose_section.darkcolor .wc_img_title h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.wc_content {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.wc_content p {
+    margin-bottom: 30px;
+}
+
+.call_artwork_section {
+    font-family: Mark Pro;
+    font-size: 26px;
+    line-height: normal;
+    text-align: center;
+    padding-top: 84px;
+    padding-bottom: 186px;
+    background: #F6F5EE;
+    color: #6E35A0;
+    margin-bottom: -122px;
+    font-weight: 700;
+}
+
+.call_artwork_section .container {
+    max-width: 1000px !important;
+}
+
+.call_artwork_section .container .call_btns {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.menuoverlaybg {
+    background-color: #6E35A0;
+    background-image: url(/logo_footer.svg);
+    background-size: 180px;
+    background-position: calc(50% + 115px) center;
+    background-repeat: no-repeat;
+}
+
+
+.mobilemenu {
+    background: #11357C;
+}
+
+.mobilemenu * {
+    color: #fff !important;
+}
+
+
+header .col-sm-8.flex .nav-links ul li {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+header .col-sm-8.flex .nav-links ul {
+    gap: 20px;
 }

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from '../components/Button';
 import Slider from '../components/Slider';
 import GoogleReviews from '../components/GoogleReviews';
+import QualityGuaranteed from '../components/QualityGuaranteed';
 
 export default function Home() {
   return (
@@ -213,14 +214,7 @@ about video
 
 
 <div className="our_reviews_section">
-  <div className="container">
-    <div className="flex justify-between row">
-      <div className="col-sm-12">
-        <h2>Our reviews?</h2>
-      </div>
-    </div>
-  </div>
-  <div className="google_reviews_section"><GoogleReviews /></div>
+  <GoogleReviews />
 </div>
                
 <div className="get_free_quote_section">
@@ -269,14 +263,7 @@ about video
 </div>
 
 <div className="quality_section">
-  <div className="container">
-    <div className="flex justify-between row">
-      <div className="col-sm-12">
-        <h2>Quality. Guaranteed.</h2>
-        <p>Different machines, different design adjustments. We understand it’s all part of the process and we’ll happily work with you to address them. If you’re still not satisfied, please contact us within 14 days for a full refund to be credited to your account.</p>
-      </div>
-    </div>
-  </div>
+  <QualityGuaranteed />
 </div>
 
 
