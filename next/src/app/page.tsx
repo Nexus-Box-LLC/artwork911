@@ -5,6 +5,8 @@ import Slider from '../components/Slider';
 import GoogleReviews from '../components/GoogleReviews';
 import QualityGuaranteed from '../components/QualityGuaranteed';
 
+import VideoWithPlayButton from '../components/VideoWithPlayButton';
+
 export default function Home() {
   return (
 
@@ -41,9 +43,13 @@ about video
     <p>A handcrafted, small-batch, artisinal pour-over version of the classic lorem ipsum generator, Hipster Ipsum will give your mocks that blue collar touch.</p>
   </div>
 <div className="av_video">
-  <video
-        src="/home/video/mic_handcrafted.mp4" controls controlsList="nodownload" disablePictureInPicture width="1028" poster="/home/video/video_poster.png">
-      </video>
+   <VideoWithPlayButton
+        src="/home/video/mic_handcrafted.mp4"
+        poster="/home/video/video_poster.png"
+        width={1028}
+        height={578}
+      />
+  
   <p>Having trouble seeing video? <a href="#">Watch on YouTube</a> &nbsp;&gt;</p>
 </div>
 </div>
@@ -254,9 +260,11 @@ about video
   <div className="container">
     <div className="flex justify-between row">
       <div className="col-sm-12">
+        <div className="pricing_section_content">
         <p>From simple to complex designs, our drawing boards are always open to accommodate your projects. While not all tasks are created and cost equal, we maintain the same high quality in all our outputs. Get in touch with us today for a free quote on your artwork digitization requirements. </p>
         <h4>Rates start at $25</h4>
        <p>*IMPORTANT NOTE: We do not create entirely new designs. We provide digitizing and enhancement services for existing artwork.</p>
+      </div>
       </div>
     </div>
   </div>
@@ -265,6 +273,8 @@ about video
 <div className="quality_section">
   <QualityGuaranteed />
 </div>
+
+
 
 
       </main>

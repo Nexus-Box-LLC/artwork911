@@ -147,6 +147,40 @@ a.btn_alpha {
 }
 
 
+
+.menuoverlaybg {
+    background-color: #6E35A0;
+    background-image: url(/logo_footer.svg);
+    background-size: 180px;
+    background-position: calc(50% + 115px) center;
+    background-repeat: no-repeat;
+}
+
+
+.mobilemenu {
+    background: #11357C;
+}
+
+.mobilemenu * {
+    color: #fff !important;
+}
+
+
+header .col-sm-8.flex .nav-links ul li {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+header .col-sm-8.flex .nav-links ul {
+    gap: 20px;
+}
+
+
+.av_video > div {
+    max-width: 1080px !important;
+    width: 100% !important;
+    height: auto !important;
+}
 .main_slider{display: flex;    align-items: center; position: relative;}
 .width50 {
     width: 50%;
@@ -417,6 +451,7 @@ a.btn_alpha {
 .art_resc_content_details {
     font-family: Mark Pro;
     font-size: 20px;
+    position: relative;
 }
 
 .art_resc_content_details p {
@@ -674,8 +709,10 @@ a.btn_alpha {
     margin-bottom: 30px;
 }
 
-.pricing_section .container {
+.pricing_section .pricing_section_content, .pricing_section ul {
     max-width: 1000px !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -703,7 +740,7 @@ a.btn_alpha {
     color: #11357C;
     padding-bottom: 40px;
 }
-
+/*Footer*/
 
 footer .darkcolor {
     padding-top: 75px;
@@ -1032,7 +1069,12 @@ li.sw_content:after {
     font-weight: 700;
     font-size: 40px;
     line-height: normal;
+    min-height: 102px;
+    display: flex;
+    align-items: center;
+    width: 100%;
     text-align: center;
+    justify-content: center;
 }
 
 .prodesc {
@@ -1131,31 +1173,266 @@ li.sw_content:after {
     justify-content: center;
     gap: 30px;
 }
+.embroidery_digitizing_page {
+    margin-top: -30px;
+}
 
 
-.menuoverlaybg {
-    background-color: #6E35A0;
-    background-image: url(/logo_footer.svg);
-    background-size: 180px;
-    background-position: calc(50% + 115px) center;
+/*art_services css*/
+
+.art_services_page {
+    margin-top: -30px;
+}
+
+
+
+.topbanner_area .container {
+    max-width: 1450px !important;
+}
+
+.top_banner_content {
+    padding-left: 117px;
+    padding-right: 117px;
+    padding-top: 46px;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    text-align: justify;
+    color: #11357C;
+}
+
+.top_banner_content h1 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    text-align: left;
+    color: #11357C;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.top_banner_content h1:after {
+    content: '';
+        width: 453px;
+    height: 318px;
+    background: url(/vector_art/vector_art_arrow.png);
+    display: block;
+    position: absolute;
+    left: -117px;
+}
+
+.art_services_page .topbanner_area {
+    position: relative;
+    padding-bottom: 64px;
+    overflow: hidden;
+}
+
+.art_services_page .topbanner {
+    height: calc(100% + 64px);
+}
+
+
+
+.tb_outputfiles {
+    padding-left: 117px;
+    padding-right: 50px;
+    padding-top: 46px;
+    padding-bottom: 64px;
+    position: relative;
+    margin-top: 30px;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #11357C;
+}
+
+.tb_outputfiles:before {
+    content: '';
+    background: #F6F5EE;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5000px;
+    left: -50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.art_services_page .topbanner {
+    height: calc(100% + 64px);
+}
+
+.tb_outputfiles ul {
+    margin-top: 20px;
+}
+
+.tb_outputfiles ul li {
+    background: #fff;
+    display: flex;
+    padding: 8px 32px;
+    gap: 12.5px;
+    align-items: center;
+    margin-bottom: 4px;
+    border-radius: 20px;
+}
+
+
+.embroidery_digitizing_section.whygo_floating .flex.justify-between.row .col-sm-5 {
+    border-radius: inherit;
+}
+
+.whygo h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    color: #11357C;
+    max-width: 400px;
+    line-height: normal;
+}
+
+.whygo .floating_icon {width: 180px;height: 180px;position: relative;}
+
+.whygo {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.embroidery_digitizing_section.whygo_floating .flex.justify-between.row {
+    gap: 0px;
+}
+
+.whygo_btn {
+    position: relative;
+    padding-left: 75px;
+}
+
+.whygo_btn:before {
+    content: '';
+    width: 430px;
+    height: 378px;
+    position: absolute;
+    background: url(/vector_art/why_go_vector.png);
+    left: -386px;
+    transform-origin: right;
+    bottom: 0px;
+    background-size: contain;
+    background-position: bottom;
     background-repeat: no-repeat;
+    z-index: -1;
+    transform: rotate(-3deg);
 }
 
 
-.mobilemenu {
-    background: #11357C;
+.swsr_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.mobilemenu * {
-    color: #fff !important;
+.swsr_container .swsr_timg,
+.swsr_container .swsr_oimg,
+.swsr_container .swsr_img_whead {    width: calc(33.33% - 30px);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.swsr_container .swsr_img {
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.swsr_container .swsr_img:before {
+        padding-bottom: 66%;
+    content: '';
+    display: block;
+}
+
+.swsr_container .swsr_oimg .swsr_img:before {
+        padding-bottom: calc(132% + 30px);
+    content: '';
+    display: block;
+}
+
+.swsr_container .swsr_img img{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 
-header .col-sm-8.flex .nav-links ul li {
-    padding: 0px !important;
-    margin: 0px;
+
+
+.swsr_content {
+    border-radius: inherit !important;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    position: relative;
 }
 
-header .col-sm-8.flex .nav-links ul {
-    gap: 20px;
+.swsr_content h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
+
+.swsr_content:after {
+    content: '';
+    display: block;
+    height: 82px;
+    background: url(/vector_art/sample_work_arrow_revert.svg);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+
+h2.pricon {
+    position: relative;
+    display: inline-block;
+}
+
+h2.pricon:before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    background: url(/vector_art/price_design_left.png) no-repeat center;
+    display: block;
+    position: absolute;
+    left: -70px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+
+h2.pricon:after {
+    content: '';
+    width: 60px;
+    height: 60px;
+    background: url(/vector_art/price_design_right.png) no-repeat center;
+    display: block;
+    position: absolute;
+    right: -70px;
+    top:50%;
+    transform:translateY(-50%);
 }

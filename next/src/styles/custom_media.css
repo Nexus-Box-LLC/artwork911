@@ -219,6 +219,100 @@
     .ourservices_section .service_boxes li {
         margin-bottom: 50px;
     }
+
+    li.sw_content h2 {
+        font-size: 44px;
+    }
+
+    li.sw_content {
+        font-size: 16px;
+    }
+
+    .ed_content {
+        font-size: 16px;
+    }
+
+    .ed_content h2 {
+        font-size: 44px;
+    }
+
+    .why_ed_content h2 {
+        font-size: 44px;
+    }
+
+    .why_ed_content h2:after {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .why_ed_content {
+        font-size: 16px;
+    }
+
+    .topbanner_area .floating_icon {
+        width: 80px;
+        bottom: -40px;
+    }
+
+    .embroidery_digitizing_section {
+        padding-top: 75px;
+    }
+
+    .sample_work_section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .pricing_section ul li h3 {
+        font-size: 32px;
+        min-height: 70px;
+    }
+
+    .prodesc {
+        padding-top: 25px;
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .prodbtn {
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .sml_note {
+        font-size: 16px;
+        padding-bottom: 40px;
+    }
+
+    .whychoose_section.darkcolor .wc_img_title h2 {
+        font-size: 44px;
+        padding-top: 40px;
+    }
+
+    .wc_content {
+        font-size: 16px;
+    }
+
+    .whychoose_section.darkcolor .wc_img_title img.sw_img {
+        height: 150px;
+    }
+
+    .whychoose_section.darkcolor .wc_img_title {
+        padding-bottom: 75px;
+    }
+
+    .call_artwork_section {
+        font-size: 20px;
+    }
+
+    .pricing_section h2 {
+        font-size: 44px;
+    }
+    li.sw_content:after {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width: 767px){
