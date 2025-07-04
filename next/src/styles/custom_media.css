@@ -1,3 +1,8 @@
+@media (max-width: 1500px){
+    .our_reviews_section:before {
+        width: calc(100% - 30px);
+    }
+}
 @media  (max-width:1200px){
     .width50.leftbx .maincontent h1 {
         font-size: 48px;
@@ -313,7 +318,46 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
+
+    .about_top_content h1 {
+        font-size: 48px;
+    }
+
+    .about_top_content {
+        font-size: 16px;
+    }
+
+    .about_top_content h1 {
+        margin-bottom: 40px;
+    }
+
+    .content_slider_box .p-8.bg-gray-100.rounded-lg.text-center {
+        font-size: 28px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .service_featured li {
+        font-size: 32px;
+    }
+    .about_page .flex.justify-between.row {
+        gap: 30px;
+    }
 }
+
+@media (max-width: 991px){
+    .pricing_section ul li {
+        padding: 20px;
+        padding-bottom: 100px;
+        border-radius: 30px;
+    }
+
+    .prodbtn {width: calc(100% - 40px);bottom: 20px;}
+    .sample_work_section.darkcolor ul li {
+        width: calc(50% - 30px);
+    }
+}
+
 
 @media (max-width: 767px){
     .width50.rightbx {
@@ -477,7 +521,7 @@
     }
 
     .quality_section {
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 50px;
     }
 
@@ -539,6 +583,148 @@
     .menuoverlaybg{
         background-image: none;
     }
+    .embroidery_digitizing_section .flex.justify-between.row {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .ed_content h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .embroidery_digitizing_section .flex.justify-between.row .col-sm-5 {
+        border-radius: 30px;
+    }
+
+    .col-sm-7 {
+        width: 100%;
+    }
+    .col-sm-5 {
+        width: 100%;
+    }
+
+    .why_ed_content h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .pricing_section h2 {
+        font-size: 30px;
+    }
+
+    .pricing_section ul li h3 {
+        font-size: 24px;
+        min-height: 50px;
+    }
+
+    .sample_work_section.darkcolor ul li {
+        width:100%;
+    }
+
+    li.sw_content h2 {
+        font-size: 30px;
+    }
+
+    li.sw_content:after {
+        display: none;
+    }
+
+    .pricing_section ul li {
+        width: 100%;
+    }
+
+    .pricing_section ul {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .whychoose_section.darkcolor .flex.justify-between.row {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .whychoose_section.darkcolor .wc_img_title img.sw_img {
+        height: 80px;
+    }
+
+    .whychoose_section.darkcolor .wc_img_title {
+        padding: 30px;
+        margin-bottom: 0px;
+    }
+
+    .whychoose_section.darkcolor .wc_img_title h2 {
+        padding-top: 20px;
+        font-size: 30px;
+        border-radius: 30px;
+    }
+
+    .call_artwork_section {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+
+    li.sw_content {
+        text-align: left;
+    }
+    .embroidery_digitizing_page{
+        margin-top: 0px;
+    }
+    .about_page .flex.justify-between.row {flex-wrap: wrap;}
+
+    .about_top_content {
+                padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .content_slider_area.lightcolor {
+        margin-top: 0px;
+        padding-top: 75px;
+        background: #fff;
+        padding: 0px;
+    }
+
+    .content_slider_box.darkcolor {
+        padding: 15px;
+    }
+
+    .service_featured_section {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .about_page {
+        margin: 0;
+    }
+
+    .about_top_content h1:after {
+        width: 50px;
+        height: 100px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .about_top_content h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .content_slider_box .p-8.bg-gray-100.rounded-lg.text-center {
+        font-size: 16px;
+        line-height: normal;
+        font-weight: 400;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .service_featured li {
+        font-size: 24px;
+    }
+
+    .swiper + button svg, .swiper + button + button svg {
+        width: 30px;
+    }
+
 }
 
 @media (max-width: 420px){
@@ -548,5 +734,39 @@
     .expert_artwork_services_section .container .easervicebox .easervicebox_icons ul li {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .embroidery_digitizing_section {
+        padding-top: 0px;
+    }
+
+    .topbanner_area .floating_icon {
+        display: none;
+    }
+
+
+    .topbanner {
+        border-radius: 30px;
+    }
+
+    .embroidery_digitizing_page {
+        margin: 0px;
+    }
+
+    header {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .call_artwork_section .container .call_btns {
+        gap: 15px;
+    }
+
+    .about_top_content {
+        padding-right: 0px;
+    }
+
+    .about_top_content h1:after {
+        display: none;
     }
 }

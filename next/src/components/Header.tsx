@@ -10,13 +10,15 @@ export default function Header() {
       <div className="container">
         <div className="flex justify-between row">
         <div className="col-sm-4">
-        <Image
+        <Link href="/" passHref>
+             <Image
               className="dark:invert"
               src="/logo.svg"
               alt="Vercel logomark"
               width={245}
               height={97}
             />
+            </Link>
             </div>
             <div className="col-sm-8 flex">
             <Navbar />
