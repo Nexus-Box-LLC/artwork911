@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -10,48 +10,36 @@ import "swiper/css/pagination";
 export default function ContentSlider({ contentslides }) {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
-  const swiperRef = useRef(null);
+    const [isReady, setIsReady] = useState(false); // wait for refs
+  const [swiperInstance, setSwiperInstance] = useState(null);
+
+
+ useEffect(() => {
+    // Wait a tick to ensure refs are available
+    setIsReady(true);
+  }, []);
+
 
   useEffect(() => {
     if (
-      swiperRef.current &&
-      swiperRef.current.swiper &&
+      isReady &&
+      swiperInstance &&
       prevRef.current &&
-      nextRef.current
+      nextRef.current &&
+      swiperInstance.params
     ) {
-      swiperRef.current.swiper.params.navigation.prevEl = prevRef.current;
-      swiperRef.current.swiper.params.navigation.nextEl = nextRef.current;
-      swiperRef.current.swiper.navigation.destroy();
-      swiperRef.current.swiper.navigation.init();
-      swiperRef.current.swiper.navigation.update();
+      swiperInstance.params.navigation.prevEl = prevRef.current;
+      swiperInstance.params.navigation.nextEl = nextRef.current;
+
+      swiperInstance.navigation.destroy();
+      swiperInstance.navigation.init();
+      swiperInstance.navigation.update();
     }
-  }, [contentslides]);
+  }, [isReady, swiperInstance]);
   return (
-    <div className="relative"> <Swiper
-      modules={[Pagination, Autoplay, Navigation]}
-      spaceBetween={30}
-      slidesPerView={1}
-      //pagination={{ clickable: true }}
-      //autoplay={{ delay: 3000, disableOnInteraction: false }}
-      // loop={true}
-      navigation={{
-          prevEl: prevRef.current,
-          nextEl: nextRef.current,
-        }}
-        onSwiper={(swiper) => {
-          swiperRef.current = swiper;
-        }}
-    >
-      {contentslides.map((slide, idx) => (
-        <SwiperSlide key={idx}>
-          <div className="p-8 bg-gray-100 rounded-lg text-center">
-            {/*<h2 className="text-xl font-bold mb-2">{slide.title}</h2>*/}
-            <p>{slide.content}</p>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
-    <button
+    <div className="relative"> 
+
+      <button
         ref={prevRef}
         className="absolute left-2 top-1/2 z-10 -translate-y-1/2 rounded-full"
         aria-label="Previous"
@@ -75,6 +63,29 @@ export default function ContentSlider({ contentslides }) {
 </svg>
 
       </button>
+      <Swiper
+      modules={[Pagination, Autoplay, Navigation]}
+      spaceBetween={30}
+      slidesPerView={1}
+      //pagination={{ clickable: true }}
+      //autoplay={{ delay: 3000, disableOnInteraction: false }}
+      // loop={true}
+      // navigation={{
+      //     prevEl: prevRef.current,
+      //     nextEl: nextRef.current,
+      //   }}
+        onSwiper={setSwiperInstance}
+    >
+      {contentslides.map((slide, idx) => (
+        <SwiperSlide key={idx}>
+          <div className="p-8 bg-gray-100 rounded-lg text-center">
+            {/*<h2 className="text-xl font-bold mb-2">{slide.title}</h2>*/}
+            <p>{slide.content}</p>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+    
     </div>
   );
 };
