@@ -5,6 +5,11 @@ import GoogleReviews from '../../components/GoogleReviews';
 import QualityGuaranteed from '../../components/QualityGuaranteed';
 import SampleProductSlider from '../../components/SampleProductSlider';
 
+type Slide = {
+  title: string;
+  content: string;
+};
+
 export default function EmbroideryDigitizing() {
 
 
