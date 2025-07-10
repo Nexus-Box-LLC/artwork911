@@ -10,9 +10,9 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/embroidery_digitizing', label: 'Embroidery Digitizing' },
-  { href: '/art_services', label: 'Art Services' },
-  { href: '/contact_us', label: 'Contact Us' },
+  { href: '/embroidery-digitizing', label: 'Embroidery Digitizing' },
+  { href: '/art-services', label: 'Art Services' },
+  { href: '/contact-us', label: 'Contact Us' },
   { href: '/register', label: 'Register' },
 ];
 

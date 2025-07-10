@@ -3,8 +3,27 @@ import Image from "next/image";
 import Button from '../../components/Button';
 import GoogleReviews from '../../components/GoogleReviews';
 import QualityGuaranteed from '../../components/QualityGuaranteed';
+import SampleProductSlider from '../../components/SampleProductSlider';
 
 export default function EmbroideryDigitizing() {
+
+
+  const spslides: Slide[] = [
+  { type: 'text', content: "We don’t just talk the talk, we walk the walk. Check out some of our previous Embroidery Digitizing works for our happy clients." },
+  { type: 'image', src: '/embroidery_digitizing/sw_img1.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img2.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img3.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img4.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img5.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img1.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img2.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img3.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img4.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img5.jpg', alt: 'Slide 1' },
+  { type: 'image', src: '/embroidery_digitizing/sw_img1.jpg', alt: 'Slide 1' },
+];
+
+
   return (
     <div className="embroidery_digitizing_page">
     <div className="topbanner_area">
@@ -61,11 +80,11 @@ export default function EmbroideryDigitizing() {
         </div>
       </div>
     </div>
-    <div className="sample_work_section darkcolor">
+    <div className="sample_work_section darkcolor spslider">
       <div className="container">
         <div className="flex justify-between row">
           <div className="col-sm-12">
-          <ul>
+         {/* <ul>
             <li className="sw_content">
               <h2>Sample Works</h2>
               We don’t just talk the talk, we walk the walk. Check out some of our previous Embroidery Digitizing works for our happy clients.
@@ -76,6 +95,11 @@ export default function EmbroideryDigitizing() {
             <li className="sws_img"><Image className="sw_img" src="/embroidery_digitizing/sw_img4.jpg" alt="sample_work " width={497} height={331} priority /></li>
             <li className="sws_img"><Image className="sw_img" src="/embroidery_digitizing/sw_img5.jpg" alt="sample_work " width={497} height={331} priority /></li>
           </ul>
+*/}
+
+           <SampleProductSlider  spslides={spslides} />
+
+           <div className="sws_line">Line about trust in quality and delivery times?</div>
 
           </div>
         </div>
