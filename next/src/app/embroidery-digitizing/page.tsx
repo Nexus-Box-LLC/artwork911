@@ -5,10 +5,9 @@ import GoogleReviews from '../../components/GoogleReviews';
 import QualityGuaranteed from '../../components/QualityGuaranteed';
 import SampleProductSlider from '../../components/SampleProductSlider';
 
-type Slide = {
-  title: string;
-  content: string;
-};
+type Slide =
+  | { type: 'text'; content: string }
+  | { type: 'image'; src: string; alt: string };
 
 export default function EmbroideryDigitizing() {
 
