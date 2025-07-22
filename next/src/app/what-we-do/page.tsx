@@ -66,7 +66,7 @@ const features: Feature[] = [
             <div className="col-sm-6">
               <div className="topbanner">
                 <Image
-                    className="dark:invert"
+                    className="wwdbannerimg"
                     src="/what_we_do/wwd_banner.jpg"
                     alt="Artwork911 "
                     width={793}
@@ -92,7 +92,7 @@ const features: Feature[] = [
             </div>          
 
             <div className="floating_icon"><Image
-          className="dark:invert"
+          className="flotingiconimg"
           src="/home/slider/floating_icon.png"
           alt="Artwork911 "
           width={180}
@@ -114,7 +114,7 @@ const features: Feature[] = [
             <h2>The Artwork911 Way</h2>
           <div className="wcp_img">
           <Image
-          className="dark:invert"
+          className="aboutsolutionimg"
           src="/home/solution/about_solutions.jpg"
           alt="Artwork911 "
           width={800}

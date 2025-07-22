@@ -12,7 +12,7 @@ export default function Header() {
         <div className="col-sm-4">
         <Link href="/" passHref>
              <Image
-              className="dark:invert"
+              className="hederloimg"
               src="/logo.svg"
               alt="Vercel logomark"
               width={245}

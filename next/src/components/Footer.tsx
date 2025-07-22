@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex justify-between row">
         <div className="col-sm-8">
         <Image
-              className="dark:invert"
+              className="footerlogoimg"
               src="/logo_footer.svg"
               alt="Vercel logomark"
               width={245}

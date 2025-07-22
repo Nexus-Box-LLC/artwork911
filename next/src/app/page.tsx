@@ -23,7 +23,7 @@ export default function Home() {
         <Button text="Get quote" onClick="/" className="btn_alpha"/>
         </div>
         <div className="floating_icon"><Image
-          className="dark:invert"
+          className="flotingiconimg"
           src="/home/slider/floating_icon.png"
           alt="Artwork911 "
           width={180}
@@ -62,7 +62,7 @@ about video
       <div className="col-sm-6">
     <div className="as_image">
 <Image
-          className="dark:invert"
+          className="aboutsolutionimg"
           src="/home/solution/about_solutions.jpg"
           alt="about_solutions "
           width={633}

@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div className="col-sm-5">
               <div className="topbanner">
                 <Image
-                    className="dark:invert"
+                    className="artworkemergencyimg"
                     src="/about/artwork_emergency.jpg"
                     alt="Artwork911 "
                     width={691}
@@ -65,7 +65,7 @@ export default function AboutPage() {
           <div className="col-sm-5">
           <div className="ed_img">
           <Image
-          className="dark:invert"
+          className="servicefeaturedsectionimg"
           src="/about/service_featured.jpg"
           alt="Artwork911 "
           width={502}

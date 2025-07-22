@@ -5,9 +5,11 @@ import GoogleReviews from '../../components/GoogleReviews';
 import QualityGuaranteed from '../../components/QualityGuaranteed';
 import SampleProductSlider from '../../components/SampleProductSlider';
 
-type Slide =
+
+type Slide = 
   | { type: 'text'; content: string }
   | { type: 'image'; src: string; alt: string };
+
 
 export default function EmbroideryDigitizing() {
 
@@ -34,7 +36,7 @@ export default function EmbroideryDigitizing() {
     <div className="container">
     <div className="topbanner">
       <Image
-          className="dark:invert"
+          className="edbannerimg"
           src="/embroidery_digitizing/embroidery_digitizing_banner.jpg"
           alt="Artwork911 "
           width={1550}
@@ -44,7 +46,7 @@ export default function EmbroideryDigitizing() {
     </div>   
   </div>
   <div className="floating_icon"><Image
-          className="dark:invert"
+          className="flotingiconimg"
           src="/home/slider/floating_icon.png"
           alt="Artwork911 "
           width={180}
@@ -60,7 +62,7 @@ export default function EmbroideryDigitizing() {
           <div className="col-sm-5">
           <div className="ed_img">
           <Image
-          className="dark:invert"
+          className="edsectionimg"
           src="/embroidery_digitizing/embroidery_digitizing.jpg"
           alt="Artwork911 "
           width={800}
