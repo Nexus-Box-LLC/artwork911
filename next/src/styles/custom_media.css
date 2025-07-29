@@ -22,7 +22,18 @@
         font-size: 20px;
         padding-top: 10px;
     }
+
+    .swsr_content h2 {
+        font-size: 44px;
+    }
+
+    .swsr_content {
+        font-size: 16px;
+    }
 }
+
+
+
 
 @media  (max-width:1200px){
     .width50.leftbx .maincontent h1 {
@@ -406,6 +417,58 @@
     .sws_line {
         font-size: 16px;
     }
+
+    .top_banner_content h1 {
+        font-size: 44px;
+    }
+
+    .top_banner_content {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+
+    .tb_outputfiles {
+        padding-right: 30px;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .tb_outputfiles ul li .file_cons {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .tb_outputfiles ul li .file_cons img.file_cons_img {
+        width: 40px !important;
+        max-width: inherit;
+    }
+
+    .tb_outputfiles ul li {
+        text-align: left;
+    }
+
+    .whygo h2 {
+        font-size: 44px;
+        width: 100%;
+        padding-right: 150px;
+    }
+
+    .whygo .floating_icon {
+        width: 80px;
+    }
+
+    .whygo {
+        gap: 20px;
+        padding-right: 30px;
+    }
+
+    .whygo_btn:before {
+        left: calc(-100% + 80px);
+        height: 232px;
+        background-size: 100% 100%;
+        width: 95%;
+    }
+
 }
 
 @media (max-width: 991px){
@@ -442,6 +505,11 @@
 
     .why_wcp_content_listing {
         padding-bottom: 75px;
+    }
+    .whygo h2 {
+        font-size: 44px;
+        width: 100%;
+        padding-right: 50px;
     }
 }
 
@@ -888,6 +956,73 @@
 
     .whatwedo_page {
         margin: 0px;
+    }
+
+    .whygo_btn:before {
+        display: none;
+    }
+
+    .whygo_btn {
+        padding-left: 0px;
+    }
+
+    .whygo {
+        display: block;
+    }
+
+    .whygo h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .whygo .floating_icon {
+        height: 100px;
+    }
+
+
+
+    .art_services_page .topbanner_area .flex.justify-between.row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .art_services_page .topbanner_area .top_banner_content h1:after {
+        display: none;
+    }
+
+    .art_services_page .topbanner_area .top_banner_content {
+        padding: 0px;
+    }
+
+    .art_services_page .topbanner_area .flex.justify-between.row .col-sm-6:first-child{order:2}
+    .art_services_page .topbanner_area .flex.justify-between.row .col-sm-6:last-child{order:1}
+
+    .art_services_page {
+        margin: 0px;
+    }
+
+    .top_banner_content h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        padding-bottom: 0px;
+        margin-top: 55px;
+    }
+
+    .tb_outputfiles {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .embroidery_digitizing_section {
+        padding-top: 0px;
+    }
+
+    .art_services_page .topbanner_area {
+        padding-bottom: 55px;
+    }
+
+    .whygo {
+        padding-right: 0px;
     }
 
 }

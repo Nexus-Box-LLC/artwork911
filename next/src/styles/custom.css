@@ -1529,6 +1529,17 @@ h2.pricon:after {
 }
 
 
+
+
+
+.swsr_container.spsr_container  .swsr_timg, 
+.swsr_container.spsr_container  .swsr_oimg, 
+.swsr_container.spsr_container  .swsr_img_whead{
+    width:100%
+}
+
+
+
 /*About Page*/
 .about_page {
     margin-top: -30px;
