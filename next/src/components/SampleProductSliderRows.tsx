@@ -8,8 +8,9 @@ import 'swiper/css/navigation';
 import Image from 'next/image';
 
 type SlideItem = {
-type: 'stacked' | 'tall';
+type: 'stacked' | 'tall'| 'mixit';
 images: string[]; // array of image URLs
+content?: string;
 };
 
 interface Props {
@@ -91,7 +92,7 @@ return (
                 width={500}
                 height={300}
                 alt={`Slide ${index + 1} - Image ${i + 1}`}
-                className="rounded-xl object-cover 12121"
+                className="stacked_img"
               /></div>
             ))}
           </div>
@@ -115,7 +116,7 @@ return (
               width={500}
               height={650}
               alt={`Slide ${index + 1}`}
-              className="rounded-xl object-cover 111"
+              className="tall_imgs"
             />
           </div>
           </div>
