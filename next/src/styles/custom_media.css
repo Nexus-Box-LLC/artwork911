@@ -4,6 +4,14 @@
     }
 }
 
+@media (max-width: 1450px){
+    .howtogethelp_page .topbanner_area .floating_icon {
+        left: 100px;
+        transform: inherit;
+    }
+}
+
+
 @media (max-width: 1400px){
 
     .why_wcp_content_listing .wcp_content_listing_area ul li .wcp_list_icon {
@@ -469,6 +477,25 @@
         width: 95%;
     }
 
+    .wearehere_section .wrhth_content h2 {
+        font-size: 44px;
+        margin-bottom: 32px;
+    }
+
+    .wearehere_section .wrhth_content {
+        font-size: 16px;
+    }
+
+
+    li.helpingbox_text h2 {
+        font-size: 44px;
+        margin-bottom: 32px;
+    }
+
+    ul.helpingbox_container li.helpingbox_text {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 991px){
@@ -510,6 +537,24 @@
         font-size: 44px;
         width: 100%;
         padding-right: 50px;
+    }
+
+    .wearehere_section .wrhth_content:after {
+        display: none;
+    }
+
+    ul.helpingbox_container.first_aid li.helpingbox_img img {
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    .helpingbox_section {
+        padding-top: 33px;
+        margin-bottom: 165px;
+    }
+
+    ul.helpingbox_container.urgent li.helpingbox_img img {
+        height: 100%;
     }
 }
 
@@ -1025,6 +1070,64 @@
         padding-right: 0px;
     }
 
+    .wearehere_section .wrhth_content h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        padding-top: 30px;
+    }
+
+    li.helpingbox_text h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    ul.helpingbox_container {
+        display: grid;
+    }
+
+    ul.helpingbox_container.first_aid li.helpingbox_text {
+        width: 100%;
+        order: 2;
+    }
+
+    ul.helpingbox_container.first_aid li.helpingbox_img {
+        width: 100%;
+        height: 400px;
+    }
+
+    ul.helpingbox_container.priorityportal li.helpingbox_icon {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.helpingbox_container.priorityportal li.helpingbox_icon img {
+        margin: auto;
+        max-width: 150px;
+    }
+
+    ul.helpingbox_container.priorityportal li.helpingbox_text {
+        width: 100%;
+        padding: 32px;
+    }
+
+    ul.helpingbox_container.urgent li.helpingbox_text {
+        width: 100%;
+        order: 2;
+    }
+
+    ul.helpingbox_container.urgent li.helpingbox_img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .helpingbox_section {
+        margin-bottom: 100px;
+    }
+
+    .howtogethelp_page {
+        margin-top: 0px;
+    }
+
 }
 
 @media (max-width: 420px){
@@ -1053,6 +1156,8 @@
         margin: 0px;
     }
 
+    
+
     header {
         padding-bottom: 15px;
         padding-top: 15px;
@@ -1068,5 +1173,9 @@
 
     .about_top_content h1:after {
         display: none;
+    }
+
+    .wearehere_section .wrhth_content h2 {
+        padding-top: 0px;
     }
 }
