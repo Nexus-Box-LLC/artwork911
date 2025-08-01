@@ -2183,3 +2183,348 @@ ul.helpingbox_container.priorityportal {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+
+/*Custom Google reviews*/
+.reviewbox {
+    background: #fff;
+    border-radius: 40px;
+    padding: 32px;
+}
+
+.reviewbox .review_stars {
+    text-align: center;
+}
+
+.reviewbox  img {transform: inherit;left: inherit;}
+
+.review_company {
+    color: #808282;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.postedon {
+    text-align: center;
+}
+
+
+.review_details {
+    margin-top: 16px;
+    text-align: left;
+}
+
+.review_details h3 {font-family: Mark Pro;font-weight: 700;font-size: 20px;color: #111625;}
+
+p.reviewpost_date {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #808282;
+    margin-bottom: 16px;
+}
+
+.review_content {
+    background: linear-gradient(180deg, #253C7E, #111625); /* customize colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* for Firefox */
+    color: transparent;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.google_reviews_section .swiper.swiper-initialized.swiper-horizontal {
+    margin-left: -125px;
+    margin-right: -125px;
+}
+
+
+.google_reviews_section {
+    position: relative;
+    padding-bottom: 110px;
+    margin-bottom: -72px;
+}
+
+.google_reviews_section button {
+    bottom: 0;
+    top: inherit;
+    cursor: pointer;
+}
+
+.google_reviews_section button.absolute.left-2 {
+    left: 200px !important;
+}
+.google_reviews_section button.absolute.right-2 {
+    right: 200px !important;
+}
+
+
+.google_reviews_section+.sws_line {
+    position: relative;
+    padding-bottom: 0px;
+}
+
+
+/*How to Order*/
+.howtoorder_page {
+    margin-top: -30px;
+}
+
+.howtoorder_page .topbanner_area .floating_icon {
+    right: 60px;
+    transform: inherit;
+    left: inherit;
+}
+
+.howtoorder_page .topbanner_area .container {
+    position: relative;
+}
+
+
+.hto_section {
+    padding-top: 67px;
+    padding-bottom: 67px;
+    text-align: center;
+}
+
+.hto_section .hto_content {
+    max-width: 800px;
+    margin: auto;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #11357C;
+}
+
+.hto_section .hto_content h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+    color: #11357C;
+    padding-bottom: 81px;
+    position: relative;
+}
+
+.hto_section .hto_content h2:after {
+    content: '';
+    height: 81px;
+    background: url(/how-to-order/how__to_order_line.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+
+.lets_started_section {
+    position: relative;
+    background: #D1C9C9;
+    padding-top: 64px;
+    background: linear-gradient(to bottom, #ffffff 55%, #d1c9c9 50%);
+    padding-bottom: 64px;
+}
+
+.lets_started_head h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #11357C;
+    max-width: 750px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.lets_started_head h2:after {
+    width: 354px;
+    height: 503px;
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(/how-to-order/drawing_buld.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    left: calc(100% - 200px);
+    top: 0;
+}
+
+
+.col-sm-6.lets_started_left {
+    display: grid;
+    gap: 32px;
+}
+
+.col-sm-6.lets_started_left .cana_box {
+    background: #F5F5F5;
+    border-radius: 40px;
+    padding: 32px;
+    position: relative;
+}
+
+
+.col-sm-6.lets_started_left .cana_box:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 229px;
+    height: 264px;
+    background: url(/how-to-order/ca_line.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50px;
+    right: -130px;
+}
+
+.cana_head {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.cana_icon {
+    width: 150px;
+    height: 150px;
+    background: #6E35A0;
+    border-radius: 50%;
+    display: flex;
+    align-items: anchor-center;
+    justify-content: center;
+}
+
+.cana_head h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: left;
+    color: #11357C;
+    position: relative;
+    width: calc(100% - 150px);
+    line-height: normal;
+}
+
+.lets_started_section .container {
+    max-width: 1450px !important;
+}
+
+.flex.justify-between.row.lets_started_content {
+    gap: 30px;
+}
+
+.cana_content {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #11357C;
+}
+
+.cana_content li {
+    margin-bottom: 30px;
+}
+
+.cana_content span {
+    font-weight: 100;
+    font-size: 21px;
+    line-height: normal;
+}
+
+    
+
+.cana_section_img_box {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.cana_section_img_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cana_section_note_box {
+    background: #F5F5F5;
+    padding: 32px;
+    border-radius: 40px;
+    margin-left: 150px;
+    color: #11357C;
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.cana_note_icon {
+    margin-bottom: 32px;
+}
+
+
+.col-sm-6.lets_started_right {
+    display: flex;
+}
+
+.customer_portal_box {
+    background: #F5F5F5;
+    border-radius: 40px;
+    margin-top: 340px;
+    padding: 32px;
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #11357C;
+}
+
+.customer_portal_box h2 {
+    font-family: Mark Pro;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #11357C;
+    position: relative;
+    line-height: normal;
+    margin-bottom: 64px;
+}
+
+.csp_text {
+    margin-bottom: 32px;
+}
+
+ul.csp_list li {
+    margin-bottom: 32px;
+}
+
+ul.csp_list li:last-child {
+    margin-bottom: 0px;
+}
+
+ul.csp_list li .csp_list_icon {
+    margin-bottom: 32px;
+    width: 150px;
+    height: 150px;
+    background: #6E35A0;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: anchor-center;
+    justify-content: center;
+}
+
+
+.lets_started_section + .our_reviews_section:after {
+    content: '';
+    position: absolute;
+    top: -132px;
+    background: #d1c9c9;
+    width: 100%;
+    display: block;
+    height: calc(50% + 132px);
+    z-index: -1;
+}

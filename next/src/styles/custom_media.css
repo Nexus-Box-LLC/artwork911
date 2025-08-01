@@ -556,6 +556,13 @@
     ul.helpingbox_container.urgent li.helpingbox_img img {
         height: 100%;
     }
+
+    .google_reviews_section button.absolute.left-2 {
+        left: 100px !important;
+    }
+    .google_reviews_section button.absolute.right-2 {
+        right: 100px !important;
+    }
 }
 
 
@@ -1128,6 +1135,20 @@
         margin-top: 0px;
     }
 
+    .google_reviews_section button.absolute.left-2 {
+        left: 30px !important;
+    }
+    .google_reviews_section button.absolute.right-2 {
+        right: 30px !important;
+    }
+
+}
+
+@media (max-width: 520px){
+    .google_reviews_section .swiper.swiper-initialized.swiper-horizontal {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
 }
 
 @media (max-width: 420px){
